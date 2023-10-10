@@ -1,0 +1,42 @@
+
+/* Navbar.css */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-left: 10px; 
+    display: flex;
+    align-items: center;
+  }
+  
+  li {
+    margin-right: 20px;
+  }
+  
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  a:hover {
+    color: #ff6b6b;
+  }
+  
+ 
+  .search-bar-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  
