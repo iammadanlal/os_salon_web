@@ -1,42 +1,52 @@
 
 /* Navbar.css */
 nav {
-    background-color: #333;
-    color: white;
-    padding: 10px 0;
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 0;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s ease-in-out;
+}
+
+a:hover {
+  color: #ff6b6b;
+}
+
+/* Add this new class to move the SearchBar to the right */
+.search-bar-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .navbar-items {
+    flex-direction: column; /* Stack navbar items vertically */
+    align-items: center; /* Center-align items */
+    text-align: center; /* Center-align text within items */
   }
-  
-  ul {
-    list-style: none;
-    padding: 0;
-    margin-left: 10px; 
-    display: flex;
-    align-items: center;
+  .navbar-items li {
+    margin: 10px 0; /* Add spacing between items */
   }
-  
-  li {
-    margin-right: 20px;
-  }
-  
-  a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    transition: color 0.3s ease-in-out;
-  }
-  
-  a:hover {
-    color: #ff6b6b;
-  }
-  
- 
-  .search-bar-container {
-    display: flex;
-    align-items: center;
-  }
-  
-  
+}
