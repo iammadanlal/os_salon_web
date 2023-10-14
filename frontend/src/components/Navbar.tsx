@@ -1,39 +1,3 @@
-
-//  
-// <div className='flex justify-between items-center max-w-7xl mx-auto p-3'>
-
-      //   <img src="/mylogo.png" alt="logo" width={60} height={40} />
-
-      // <img
-      //   src="/hamburger-menu.svg"
-      //   alt="menu"
-      //   width={30}
-      //   height={30}
-      //   className="block md:hidden"
-      // />
-
-// <ul className="flex gap-4 max-md:hidden md:gap-x-10">
-// <li className="text-white  rounded-md hover:opacity-50 cursor-pointer !font-normal">
-//   About Us
-// </li>
-
-// <li className="text-white text-5px rounded-md hover:opacity-75 cursor-pointer !font-normal">
-//   Our Services  
-// </li> 
- 
-// <li className="text-white rounded-md hover:opacity-75 cursor-pointer !font-normal">
-//   Contact Us
-// </li>
-
-// <li className="text-white  rounded-md hover:opacity-75 cursor-pointer !font-normal">
-//   Sign In
-// </li>
-
-// </ul>
-//  </div>
-//  </div> 
-
-
 import React, { useState } from 'react'
 import { HiBars3BottomRight, HiOutlineXMark } from "react-icons/hi2";
 import MenuOverlay from './Menu';
